@@ -207,4 +207,24 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+      max-height: 3.5rem;
+    }
+
+    .meaning {
+      font-size: 1rem;
+    }
+
+    .bridge {
+      font-size: 0.95rem;
+      padding: 0 1rem;
+    }
+
+    .definition.raised {
+      transform: translateY(-1rem);
+    }
+  }
 </style>

@@ -71,4 +71,15 @@
     border-color: var(--color-text);
     color: var(--color-text);
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    button {
+      padding: 0.9rem 2rem;
+      font-size: 0.85rem;
+    }
+  }
 </style>

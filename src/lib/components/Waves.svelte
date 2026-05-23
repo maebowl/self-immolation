@@ -81,4 +81,14 @@
     color: var(--color-muted);
     font-size: 1.1rem;
   }
+
+  @media (max-width: 768px) {
+    .message {
+      font-size: 1.5rem;
+    }
+
+    .submessage {
+      font-size: 1rem;
+    }
+  }
 </style>

@@ -284,4 +284,35 @@
     object-fit: contain;
     max-height: 60vh;
   }
+
+  @media (max-width: 768px) {
+    .narrative {
+      padding-bottom: 180px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    .stop-header.raised {
+      transform: translateY(-15vh);
+    }
+
+    .stop-content {
+      max-width: 100%;
+      padding: 1rem;
+    }
+
+    .prose {
+      font-size: 1rem;
+    }
+
+    .image-step {
+      max-width: 100%;
+    }
+
+    .image-step img {
+      max-height: 45vh;
+    }
+  }
 </style>

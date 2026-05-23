@@ -60,4 +60,15 @@
     border-color: var(--color-accent);
     color: var(--color-accent);
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    button {
+      padding: 0.9rem 2rem;
+      font-size: 0.85rem;
+    }
+  }
 </style>

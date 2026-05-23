@@ -193,4 +193,33 @@
     opacity: 1;
     color: var(--color-accent);
   }
+
+  @media (max-width: 768px) {
+    .timeline {
+      height: 180px;
+    }
+
+    .dot {
+      width: 16px;
+      height: 16px;
+    }
+
+    .stop.active .dot {
+      transform: translateY(-42%) scale(1.4);
+    }
+
+    .label {
+      font-size: 0.85rem;
+      bottom: 35px;
+    }
+
+    .tick-label {
+      font-size: 0.7rem;
+      top: 22px;
+    }
+
+    .tick-mark {
+      height: 14px;
+    }
+  }
 </style>
