@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Thích Quảng Đức",
+    "age": 66,
+    "occupation": "Buddhist monk",
+    "date": "1963-06-11",
+    "location_country": "South Vietnam",
+    "location_detail": "Saigon",
+    "coordinates": [10.7626, 106.6822],
+    "cause": "Persecution of Buddhists by the Catholic Ngô Đình Diệm regime",
+    "broader_context": "Buddhist crisis in South Vietnam",
+    "target": "South Vietnamese government",
+    "survived": false,
+    "media_coverage": "iconic",
+    "aftermath": "Intensified international pressure on Diệm regime. Contributed to the coup that overthrew Diệm five months later. The photograph became one of the most iconic images of the 20th century.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Th%C3%ADch_Qu%E1%BA%A3ng_%C4%90%E1%BB%A9c"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Jan Palach",
+    "age": 20,
+    "occupation": "University student",
+    "date": "1969-01-16",
+    "location_country": "Czechoslovakia",
+    "location_detail": "Prague, Wenceslas Square",
+    "coordinates": [50.0811, 14.4278],
+    "cause": "Protest against Soviet occupation and public apathy following the invasion",
+    "broader_context": "Warsaw Pact invasion of Czechoslovakia, suppression of Prague Spring reforms",
+    "target": "Soviet occupation, Czechoslovak public complacency",
+    "survived": false,
+    "media_coverage": "international",
+    "aftermath": "Sparked widespread mourning and protests. Became a symbol of Czech resistance. His grave became a pilgrimage site. Inspired further self-immolations by Jan Zajíc and Evžen Plocek in the following weeks.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jan_Palach"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Mohamed Bouazizi",
+    "age": 26,
+    "occupation": "Street vendor",
+    "date": "2010-12-17",
+    "location_country": "Tunisia",
+    "location_detail": "Sidi Bouzid",
+    "coordinates": [34.4311, 9.4838],
+    "cause": "Humiliation and harassment by municipal officials, confiscation of his cart, lack of economic opportunity",
+    "broader_context": "Corruption, unemployment, and authoritarian rule in Ben Ali's Tunisia",
+    "target": "Local government, broader Tunisian state",
+    "survived": false,
+    "media_coverage": "iconic",
+    "aftermath": "Triggered the Tunisian Revolution, which overthrew Ben Ali within a month. Widely credited as the spark that ignited the Arab Spring across the Middle East and North Africa.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mohamed_Bouazizi"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Aaron Bushnell",
+    "age": 25,
+    "occupation": "Active-duty U.S. Air Force member",
+    "date": "2024-02-25",
+    "location_country": "United States",
+    "location_detail": "Washington, D.C., outside Israeli embassy",
+    "coordinates": [38.9076, -77.0531],
+    "cause": "Protest against U.S. complicity in the Israeli military campaign in Gaza",
+    "broader_context": "Israel-Gaza war following October 7, 2023 attack, U.S. military aid to Israel",
+    "target": "U.S. government, U.S. military support for Israel",
+    "survived": false,
+    "media_coverage": "international",
+    "aftermath": "Reignited debate over U.S. involvement in the Gaza conflict. Became a symbol within the pro-Palestinian movement. Prompted discussions about moral injury within the U.S. military.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Self-immolation_of_Aaron_Bushnell"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Mohammad Asif Javed Jutt",
+    "age": 48,
+    "occupation": "Former Nestlé factory worker",
+    "date": "2025-02-25",
+    "location_country": "Pakistan",
+    "location_detail": "Lahore, outside Lahore High Court",
+    "coordinates": [31.5204, 74.3587],
+    "cause": "Nine-year failed legal battle against Nestlé after being fired for attempting to form a union",
+    "broader_context": "Labor rights suppression by multinational corporations in Pakistan, inaccessible justice system for working class",
+    "target": "Nestlé, Pakistani judicial system",
+    "survived": false,
+    "media_coverage": "international",
+    "aftermath": "Left-wing parties and trade unions formed an alliance to seek justice and support his family. Sparked renewed debate about labor rights and corporate impunity in Pakistan.",
+    "sources": [
+      "https://peoplesdispatch.org/2025/03/13/nestle-worker-self-immolates-in-court-after-9-year-battle-igniting-a-workers-movement-for-justice/",
+      "https://morningstaronline.co.uk/article/nestle-worker-self-immolates-in-pakistan-court",
+      "https://www.thefridaytimes.com/07-Mar-2025/justice-denied-the-tragic-struggle-of-asif-javed-and-the-fight-for-labour-rights"
+    ],
+    "confidence": "high"
+  }
+]

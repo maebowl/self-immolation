@@ -1,0 +1,91 @@
+/* === Font === */
+/* Inter from Google Fonts — loaded in app.html for performance */
+
+/* === Reset === */
+/* Strip default margins/padding so we control all spacing ourselves */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === CSS Custom Properties (variables) === */
+/* Defined on :root so every component can access them with var(--color-bg) etc. */
+:root {
+  --color-bg: #0a0a0a;
+  --color-surface: #141414;
+  --color-text: #e8e4df;
+  --color-muted: #6b6560;
+  --color-accent: #d4803a;
+
+  --font-body: 'Inter', sans-serif;
+
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+}
+
+/* === Base styles === */
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: var(--weight-normal);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* === Typography scale === */
+/* Using weight for hierarchy instead of multiple font families */
+h1, h2, h3, h4 {
+  font-family: var(--font-body);
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: var(--weight-extrabold);
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: var(--weight-bold);
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: var(--weight-semibold);
+  font-size: 1.4rem;
+}
+
+p {
+  font-weight: var(--weight-normal);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* === Utility === */
+strong {
+  font-weight: var(--weight-bold);
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
