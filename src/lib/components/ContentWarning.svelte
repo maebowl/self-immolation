@@ -63,7 +63,7 @@
 
   @media (max-width: 768px) {
     h1 {
-      font-size: 1.8rem;
+      font-size: 2.2rem;
     }
 
     button {

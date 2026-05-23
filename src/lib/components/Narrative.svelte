@@ -52,7 +52,22 @@
       date: '2024-02-25',
       year: 2024,
       steps: [
-        { type: 'text', content: 'Story content goes here.' },
+        {
+          type: 'text',
+          content: "The year is 2024. The United States is unwaveringly supporting Israel in the war in Gaza. Public dissent is widespread, including among the members of our armed forces.",
+        },
+        {
+          type: 'text',
+          content: "Aaron Bushnell was a United States anarchist and active-duty member of the Air Force. He felt that his own country was sponsoring the genocide of the Palestinian people.",
+        },
+        {
+          type: 'text',
+          content: "On February 25th, Bushnell approached the gate of the Israeli embassy, doused himself with a flammable liquid, and lit himself on fire. He streamed the entire act.",
+        },
+        {
+          type: 'text',
+          content: "\u201CI am an active duty member of the United States Air Force. And I will no longer be complicit in genocide. I am about to engage in an extreme act of protest. But compared to what people have been experiencing in Palestine at the hands of their colonizers\u2014it\u2019s not extreme at all.\u201D",
+        },
       ],
     },
     {
@@ -312,7 +327,15 @@
     }
 
     .image-step img {
-      max-height: 45vh;
+      max-height: 40vh;
+    }
+
+    .stop-content.visible {
+      transform: translateY(6rem);
+    }
+
+    .stop-content.has-header.header-raised.visible {
+      transform: translateY(3rem);
     }
   }
 </style>
