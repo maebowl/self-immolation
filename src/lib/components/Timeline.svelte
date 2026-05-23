@@ -9,9 +9,10 @@
     stops: Stop[];
     activeIndex: number;
     mode: 'narrative' | 'explorer';
+    active: boolean;
   }
 
-  let { stops, activeIndex, mode }: Props = $props();
+  let { stops, activeIndex, mode, active }: Props = $props();
 
   // Timeline spans much wider than the viewport — the camera pans across it
   const startYear = 1960;
@@ -41,7 +42,7 @@
   );
 </script>
 
-<div class="timeline" class:explorer={mode === 'explorer'}>
+<div class="timeline" class:explorer={mode === 'explorer'} class:active>
   <div
     class="track"
     style="width: {totalWidth}px; transform: translateX(calc(50vw + {getOffset()}px))"
@@ -84,6 +85,17 @@
     display: flex;
     align-items: center;
     pointer-events: none;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1),
+                opacity 0.8s ease;
+  }
+
+  .timeline.active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1) 0.6s,
+                opacity 0.8s ease 0.6s;
   }
 
   .track {
